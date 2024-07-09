@@ -3,7 +3,6 @@
 论文全称：Explainable Fake News Detection With Large Language Model via Defense Among Competing Wisdom
 论文地址：https://arxiv.org/abs/2405.03371
 原文公开代码地址：https://github.com/wangbo9719/L-Defense_EFND
-
 # Introduction
 
 # Dataset
