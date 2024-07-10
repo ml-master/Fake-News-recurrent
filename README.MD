@@ -1,4 +1,4 @@
-# Fake-News-recurrent
+f# Fake-News-recurrent
 
 学号：2310274037
 
@@ -162,3 +162,15 @@ CUDA_VISIBLE_DEVICES=0 python source/step3_final.py \
 | Dataset       | style-based-fake |        |          |
 | LLaMA2:7b     | 60.95            | 60.03  | 61.77    |
 | Command-r:35b | 62.52            | 66.18  | 65.43    |
+
+## 6.参考文献
+
+@misc{wang2024explainablefakenewsdetection,
+      title={Explainable Fake News Detection With Large Language Model via Defense Among Competing Wisdom}, 
+      author={Bo Wang and Jing Ma and Hongzhan Lin and Zhiwei Yang and Ruichao Yang and Yuan Tian and Yi Chang},
+      year={2024},
+      eprint={2405.03371},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2405.03371}, 
+}
