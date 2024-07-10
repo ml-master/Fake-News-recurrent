@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=0 python source/extractor_train.py \
+--model_name_or_path ./runnings/step1_extraction_model_RAWFC \
+--dataset_name RAWFC \
+--output_dir ./dataset/RAWFC_step2 \
+--get_evidences \
+--train_batch_size 1 \
+--num_train_epochs 5 \
+--eval_batch_size 32 \
+--eval_steps 500 \
+--max_seq_len 32 \
+--gradient_accumulation_steps 1 \
+--correlation_method mlp \
+--learning_rate 1e-5 \
+--cls_loss_weight 0.9
