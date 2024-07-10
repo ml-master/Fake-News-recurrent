@@ -166,11 +166,19 @@ CUDA_VISIBLE_DEVICES=0 python source/step3_final.py \
 ## 6.参考文献
 
 @misc{wang2024explainablefakenewsdetection,
+
       title={Explainable Fake News Detection With Large Language Model via Defense Among Competing Wisdom}, 
+
       author={Bo Wang and Jing Ma and Hongzhan Lin and Zhiwei Yang and Ruichao Yang and Yuan Tian and Yi Chang},
+
       year={2024},
+
       eprint={2405.03371},
+
       archivePrefix={arXiv},
+
       primaryClass={cs.CL},
+
       url={https://arxiv.org/abs/2405.03371}, 
+
 }
