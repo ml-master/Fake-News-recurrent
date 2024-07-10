@@ -29,6 +29,8 @@ pip install transformers pandas tqdm nltk sklearn tensorboardX openai
 
 这里需要自行部署roberta-large或连接hugging-face获取roberta-large。
 
+数据集请根据dataset下的对应readme文件自行下载
+
 第一步，运行以下代码，训练特征提取器，在--dataset_name处可以指定课程数据集style_based_fake为训练数据集
 
 ```
